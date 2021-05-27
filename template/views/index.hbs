@@ -1,0 +1,35 @@
+{{>header}}
+
+<div class="row portada">
+    <div class="col-md-6">
+        <h1 class="text-center">Bienvenido a nuestra Página</h1>
+        <img src="img/portada.jpg" alt="imagen de portada" width="100%">
+        <p></p>
+    </div>
+    <div class="col-md-6">
+        <div class="row register">
+            <h3 class="text-center">Registrate ahora!</h3>
+            <form action="/register" method="POST">
+                <div class="col-md-12">
+                    <label for="nickname" class="form-label">Nickname</label>
+                    <input type="email" name="nickname" class="form-control" id="nickname">
+                </div>
+                <div class="col-md-12">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-12">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <br>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-outline-dark text-dark form-control">Registrarme</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+{{>footer}}
